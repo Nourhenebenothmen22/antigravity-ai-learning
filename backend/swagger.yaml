@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: AI Learning Platform API
+  description: API documentation for the AI Learning Platform backend.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: Development server
+paths:
+  /:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: Server is running
